@@ -1,0 +1,12 @@
+### 1. Cadastrar um novo usuário
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "Maria Silva",
+  "email": "maria@pilates.com",
+  "password": "123"
+}
+
+### 2. Listar todos os usuários cadastrados
+GET http://localhost:8080/users
